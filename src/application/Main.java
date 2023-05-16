@@ -18,7 +18,7 @@ public class Main extends Application {
     public void start(Stage stage) throws Exception {
 
         Group root = new Group();
-        Scene scene = new Scene(root,Color.BLACK);
+        Scene scene = new Scene(root,Color.CHOCOLATE);
 
         Image icon = new Image("icon.png");
         stage.getIcons().add(icon);
